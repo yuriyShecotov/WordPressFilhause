@@ -93,5 +93,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Инициализирует переменные WordPress и подключает файлы. */
 require_once ABSPATH . 'wp-settings.php';
-//Disable File Edits
-define('DISALLOW_FILE_EDIT', true);
